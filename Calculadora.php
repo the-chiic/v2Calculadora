@@ -2,7 +2,7 @@
 
     require_once "Funciones.php";
 
-    $resultado=new Funciones();
+    $resultado=new Funciones($_POST["number1"], $_POST["number2"]);
 
     $resultado->number1=$_POST["number1"];
     $resultado->number2=$_POST["number2"];
